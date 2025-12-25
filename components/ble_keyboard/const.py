@@ -62,11 +62,7 @@ LIBS_ADDITIONAL: Final = [
         "1.4.0",
         None,
     ),
-    (
-        "t-vk/ESP32 BLE Keyboard",
-        "0.3.2",
-        None,
-    ),
+    ("Custom ESP32 BLE Keyboard", None, "https://github.com/fromthink/ESP32-BLE-Keyboard.git"),  # 您的 fork URL
 ]
 
 BUILD_FLAGS: Final = "-D USE_NIMBLE"
